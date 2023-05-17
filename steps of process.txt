@@ -1,0 +1,10 @@
+#Author:Kirollos Gerges Asaad
+#process of finding the corners using Harris corner detection.
+1) Read input image
+2)convert this image into grayscaled colored space.
+3)modify the data type setting to 32-bit floating point.
+4)apply the cv2.cornerHarris method to detect the corners  with adjusting input parameters.
+5)Results are marked through the dilated corners.
+6)Reverting back to the original image, with optimal threshold value 50.
+7)The output image with corners detection.
+8)De_allocate memory and reset it.
